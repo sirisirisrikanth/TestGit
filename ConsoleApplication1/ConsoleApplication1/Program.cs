@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello World\n");
+            Console.WriteLine(add(1, 2));
+
+        }
+
+        public static int add(int i, int j)
+        {
+            return i + j;
         }
     }
 }
